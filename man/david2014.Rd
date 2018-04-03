@@ -6,7 +6,7 @@
 \title{David2014}
 \format{The data set in \code{\link{phyloseq-class}} format}
 \usage{
-data(david2014)
+david2014<-david_2014
 }
 \value{
 Loads the data set in R.

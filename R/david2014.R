@@ -8,7 +8,7 @@
 #' @author Binu Mathew \email{binmat@utu.fi}
 #' @references David et al. (2014)
 #' \url{https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89}
-#' @usage data(david2014)
+#' @usage david2014<-david_2014
 #' @return Loads the data set in R.
 #' @format The data set in \code{\link{phyloseq-class}} format
 #' @keywords data
