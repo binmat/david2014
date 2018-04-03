@@ -29,3 +29,14 @@ This phyloseq object contains:
 install_github("binmat/david2014")
 ```
 
+
+
+# Using the package 
+
+
+```{r}
+library(david2014)
+data(david2014)
+david2014
+```
+
