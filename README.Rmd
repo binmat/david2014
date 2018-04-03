@@ -1,0 +1,31 @@
+---
+title: "README"
+author: "Binu Mathew"
+date: "March 27, 2018"
+output: html_document
+---
+# david2014 data package
+
+This package contains one phyloseq object of data from David et al.(2014). It contains data from following samples:
+
+   1. Saliva microbiota samples collected from Subject_A between days 26 and 364 of study
+   2. Gut microbiota samples from Subject_A collected between days 0 and 364 of study
+   3. Only gut microbiota samples was collected from Subject_B between study days 0 and 252.
+Data processing code is available in inst/exdata 
+Further information regarding the study can be obtained from https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89.
+
+This phyloseq object contains:
+
+   1. otu_table: which contains OTU counts processed from DNA reads using QIIME analysis pipeline (v1.3).
+   2. tax_table: created by using Greengenes database as reference http://aem.asm.org/content/72/7/5069.long
+   3. sam_data: it contains metadata
+
+
+
+# Install package from source  
+
+
+```{r}
+install.packages("~/Desktop/New_david/david2014_0.1.0.tar.gz", repos = NULL, type = "source")
+```
+
