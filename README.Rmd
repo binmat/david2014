@@ -22,10 +22,10 @@ This phyloseq object contains:
 
 
 
-# Install package from source  
+# Installing package 
 
 
 ```{r}
-install.packages("~/Desktop/New_david/david2014_0.1.0.tar.gz", repos = NULL, type = "source")
+install_github("binmat/david2014")
 ```
 
