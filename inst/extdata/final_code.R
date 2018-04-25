@@ -20,7 +20,6 @@ stool_B<-add_column(stool_B, sample_type = "Fecal", .after = "collection.day")
 sample_whole<-rbind(sal_A,stool_A,stool_B)
 rm(stool_A)
 rm(stool_B)
-rm(stool.A)
 rm(sal_A)
 
 
@@ -41,7 +40,7 @@ meta.W<- meta.W[!(rownames(meta.W) %in% toDrop), ]
 sample_whole<-sample_whole[!(rownames(sample_whole) %in% toDrop), ]
 
 sample.whole <-sample_whole[,1:5431]
-rm(sample_whole)
+#rm(sample_whole)
 sample.whole <- as.matrix(sample.whole)
 
 ## Phyloseq object
@@ -72,7 +71,7 @@ colnames(otu)[6] <- "Family"
 colnames(otu)[7] <- "Genus"
 colnames(otu)[8] <- "Species"
 rownames(otu) = otu[,"OTU"]
-otu <- otu[,c(1:9)]
+otu <- otu[,c(1:8)]
 
 
 
@@ -80,6 +79,6 @@ seqa_otu = otu_table(seq.data, taxa_are_rows = TRUE)
 metaa_sample = sample_data(metadata.W)
 taxaa_tax = tax_table(as.matrix(otu))
 david_2014<- phyloseq(seqa_otu, metaa_sample, taxaa_tax)
-
-save(david_2014, file = "david_2014.rda")
+setwd("~/Desktop/New_david/david2014/data")
+save(david_2014, file = "david2014.rda")
 rm(david_2014,metaa_sample, meta.W,coln.A,metadata.W,otu,sample.whole,seq.data,seqa_otu,taxaa_tax,toDrop)

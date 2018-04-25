@@ -3,19 +3,17 @@
 \docType{data}
 \name{david2014}
 \alias{david2014}
-\title{David2014}
-\format{The data set in \code{\link{phyloseq-class}} format}
+\title{The david2014 Longitudinal Microbiome Profiling Data Set}
 \usage{
-david2014<-david_2014
+david2014<-david2014
 }
 \value{
-Loads the data set in R.
+Data set as a \code{\link{phyloseq-class}} object
 }
 \description{
 Consists high-throughput profiling data collected from gut microbiota samples collected from two individuals and Saliva samples collected form one of them.
 Gut microbiota samples from Subject A collected between  days 0 and 364 of the study and saliva microbiota samples between days 26 and 364.
-In case of Subject B, gut microbiota samples between study days 0 and 252 were collected.
-For details, see \url{https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89}.
+In case of Subject B, gut microbiota samples between study days 0 and 252 were collected. For details, see David et al. (2014)
 }
 \references{
 David et al. (2014)

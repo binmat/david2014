@@ -2,7 +2,7 @@ Package: david2014
 Type: Package
 Title: Phyloseq object of David et al. 2014 data
 Version: 0.1.0
-Author: Who wrote it
+Author: Binu Mathew
 Maintainer: Binu Mathew <binmat@utu.fi>
 Description: david2014 is data package created from the data in David et al. 2014
 License: CC0
