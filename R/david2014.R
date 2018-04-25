@@ -7,7 +7,11 @@
 #' @author Binu Mathew \email{binmat@utu.fi}
 #' @references David et al. (2014)
 #' \url{https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89}
+<<<<<<< HEAD
 #' @usage david2014<-david2014
+=======
+#' @usage david2014<-david_2014
+>>>>>>> 613e8e1dce46b0c3e69bb7c3a36fac1d8d1d7954
 #' @return Data set as a \code{\link{phyloseq-class}} object
 #' @keywords data
 NULL

@@ -30,6 +30,10 @@ install_github("binmat/david2014")
 ```
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 613e8e1dce46b0c3e69bb7c3a36fac1d8d1d7954
 # Using the package 
 
 
